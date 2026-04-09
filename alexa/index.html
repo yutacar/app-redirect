@@ -1,0 +1,21 @@
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alexaを起動中...</title>
+    <script>
+        // ページが開かれたら自動的にAlexaアプリ(alexa://)を呼び出す
+        setTimeout(function() {
+            window.location.href = "alexa://";
+        }, 500);
+    </script>
+</head>
+<body style="text-align: center; padding-top: 50px; font-family: sans-serif;">
+    <p>Alexaアプリを起動しています...</p>
+    <p style="font-size: 0.9em; color: #666;">※「'Amazon Alexa'で開きますか？」と表示されたら「開く」をタップしてください。</p>
+    <br>
+    <a href="alexa://" style="display: inline-block; padding: 12px 24px; background: #00A8E1; color: white; text-decoration: none; border-radius: 8px; font-weight: bold;">
+        手動でAlexaを開く
+    </a>
+</body>
+</html>
